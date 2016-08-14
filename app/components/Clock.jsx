@@ -10,7 +10,6 @@ var Clock = React.createClass({
 formatSeconds: function (totalSeconds) {
   var seconds = totalSeconds % 60;
   var minutes = Math.floor(totalSeconds / 60);
-
   if (seconds < 10) {
     var seconds = '0' + seconds;
   }
